@@ -198,7 +198,7 @@ namespace GameOfGoose.Tests
         }
 
         [Fact]
-        public void IfPlayerOverStepTheLastPositionAndInReverseGotADeath_ThenHeShouldMoveToTheStqrt()
+        public void IfPlayerOverStepTheLastPositionAndInReverseGotADeath_ThenHeShouldMoveToTheStart()
         {
             //Arrange
             BoardGoose boardGame = BoardGoose.Instance;
